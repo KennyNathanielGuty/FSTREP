@@ -1,0 +1,142 @@
+/* Reset de estilo */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    font-size: 1.6rem;
+}
+
+.header {
+    background-color: #333;
+}
+
+.header__top-bar {
+    background-color: #555;
+    height: 4vh;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.header__logo {
+    background-color: #ff9900;
+    padding: 2rem;
+    text-align: center;
+}
+
+.header__logo img {
+    max-width: 20vw;
+    height: auto;
+}
+
+.navbar {
+    background-color: #ff9900;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__menu ul {
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar__menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.8rem;
+}
+
+.navbar__search input {
+    width: 20vw;
+    padding: 0.8rem;
+    font-size: 1.6rem;
+}
+
+/* Main Content */
+.main-content {
+    padding: 2rem 5vw;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    background-color: #e5e5e5;
+    padding: 2rem;
+}
+
+.hero__left, .hero__center, .hero__right {
+    background-color: #ff9900;
+    padding: 2rem;
+    flex: 1;
+    border-radius: 1rem;
+    color: white;
+    text-align: center;
+}
+
+.carousel {
+    background-color: #fff;
+    height: 40vh;
+    border: 0.2rem solid #ccc;
+    border-radius: 1rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.footer__social-media {
+    background-color: #444;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.footer__social-media ul {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.footer__social-media ul li {
+    list-style: none;
+}
+
+.footer__social-media ul li a img {
+    width: 4rem;
+    height: auto;
+}
+
+.footer__copyright {
+    background-color: #555;
+    padding: 1rem;
+}
